@@ -1,0 +1,20 @@
+# Ignore everything in .config
+.config/*
+
+# But don't ignore these folders
+!.config/kitty/
+!.config/hypr/
+!.config/waybar/
+!.config/nvim/
+!.config/wofi/
+
+
+# Also don't ignore files inside those folders
+!.config/kitty/**
+!.config/hypr/**
+!.config/waybar/**
+!.config/nvim/**
+!.config/wofi/**
+
+#Ignore local git config
+.gitconfig
